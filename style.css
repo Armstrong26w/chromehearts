@@ -1,0 +1,89 @@
+body{
+    color: #046325;
+    text-align: center;
+    padding: 20PX;
+    overflow-x: scroll;
+    background-color: rgba(222, 125, 232, 0.228);
+}
+h1{
+    text-decoration: underline;
+   text-shadow: 0px 0px 5px;
+   
+}
+
+h2{
+   text-align: center;
+   border-radius: 20px;
+   border-style: dotted;
+   border-color: transparent;
+   background-color: rgb(124, 204, 176);
+   
+}
+
+
+
+p{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.hats,.hoodie,.jeans,.necklace{
+    padding: 40px;
+    cursor: pointer;
+    border-style: outset;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+ 
+
+.hats, .hoodie, .jeans, .necklace{
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.price{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    color: #010101;
+    padding: 5px 0;
+    font-weight: bold;
+
+}
+
+
+button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 6px 14px;
+    border: none;
+    background-color: #ff7a00;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+p::first-line{
+    color:#f3a806
+}
